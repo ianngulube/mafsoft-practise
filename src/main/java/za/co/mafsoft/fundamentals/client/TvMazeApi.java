@@ -16,5 +16,5 @@ import java.util.List;
 public interface TvMazeApi {
     @Path("/shows")
     @GET
-    public List<TvMazeSeries> search(@QueryParam("q") String q);
+    List<TvMazeSeries> search(@QueryParam("q") String q);
 }
